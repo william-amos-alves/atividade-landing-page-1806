@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.item-1{
+    background-color: orange;
+}
+
+.item-2{
+    background-color: red;
+}
+
+.item-3{
+    background-color: aqua;
+    align-self:flex-end;
+}
+
+.item-4{
+    background-color: pink;
+}
+
+.item-1,.item-2,.item-3,.item-4{
+    width: 200px;
+}
+
+.container{
+    background-color: blueviolet;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /*justify-content:center;*/
+    align-items: center;
+   height: 100vh;
+   gap: 16px;
+}
